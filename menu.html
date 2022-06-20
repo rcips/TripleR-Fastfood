@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Menu</title>
+
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+
+        <!-- javaScript bundle with popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/a15ff02c89.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!--  external css -->
+        <link rel="stylesheet" href="./css/menuStyle.css" />
+
+        <!-- tab icon -->
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./images/ralImg/tripler.ico"
+        />
+    </head>
+    <body>
+        <!-- app container start -->
+        <div class="container-fluid p-0">
+            <!-- header start -->
+            <header>
+                <!-- navigation start -->
+                <nav
+                    id="top"
+                    class="navbar nav nav-pills navbar-expand-lg w-100 py-0"
+                >
+                    <div class="d-flex container-fluid">
+                        <div class="d-flex flex-fill">
+                            <a href="./index.html">
+                                <img
+                                    src="./images/TRIPLE-R_LOGO-removebg-preview.png"
+                                    alt="Triple R logo"
+                                    width="100"
+                            /></a>
+                        </div>
+                        <div class="d-flex">
+                            <i
+                                id="burgerMenu"
+                                class="fa-solid fa-bars navbar-toggler"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarCollapse"
+                            ></i>
+                        </div>
+                        <div
+                            class="navbar-collapse collapse justify-content-end text-end"
+                            id="navbarCollapse"
+                        >
+                            <ul class="navbar-nav ms-2 align-items-center px-2">
+                                <li class="nav-item m-2" id="border">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        href="./index.html"
+                                        style="color: black"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./about.html"
+                                        >About us</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        id="border-nav"
+                                        class="nav-link px-2 fw-bold fs-5 active bg-danger"
+                                        style="color: black"
+                                        href="./menu.html"
+                                        >Menu</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./testimonial.html"
+                                        >Testimonials</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./contact.html"
+                                        >Contact</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a href="./product.html" class="nav-link disabled">
+                                        <i
+                                            class="fa-solid fa-cart-shopping text-danger px-2 fw-bold fs-5"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navigation End -->
+            </header>
+            <!-- header end -->
+
+            <!-- menu hero start -->
+            <div class="menuHeroSection d-flex align-items-center justify-content-center">
+                <p class="textSpecial p-0 m-0 text-center">Our <span>Menu</span></p>
+            </div>
+            <!-- menu hero end -->
+
+            <!-- menu Start -->
+            <div class="menuSection d-flex flex-column align-items-center">
+                <div id="burgers" class="burgers min-vh-100 d-flex flex-column alig-items-center">
+                    <h2 class="d-flex align-items-center justify-content-center justify-content-md-start p-3 p-md-5">
+                        BURGER <i class="fa-solid fa-burger"></i></i>
+                    </h2>
+                    <div
+                        class="p-2 p-md-5 d-flex flex-wrap flex-column flex-md-row justify-content-evenly"
+                    >
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/BaconcheeseBurger.png"
+                                        alt="Bacon cheese burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Bacon Cheese Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >2</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <a href="./product.html" class="mt-auto btn btn-warning align-self-end w-100">Buy now</a>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/MushroomBurger.png"
+                                        alt="Mushroom burger"
+                                        class="img-fluid"
+                                    />
+                                    <p class="text-light text-center d-block">Mushroom Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/CheeseBurger.png"
+                                        alt="Cheese burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Cheese Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/Chiliburger.png"
+                                        alt="Chili burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Chili Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/FrankBurger.png"
+                                        alt="Frank burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Frank Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8 col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1 justify-content-between">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/burgers/VeggieBurger.png"
+                                        alt="Veggie burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Veggie Burger</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pizzas" class="pizzas mt-3 min-vh-100 d-flex flex-column alig-items-center">
+                    <h2 class="d-flex align-items-center justify-content-center justify-content-md-start p-3 p-md-5">
+                        PIZZA <i class="fa-solid fa-pizza-slice"></i></i>
+                    </h2>
+                    <div
+                        class="p-2 p-md-3 d-flex flex-wrap flex-column flex-md-row justify-content-evenly mb-3"
+                    >
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/bbqChickenPizza.png"
+                                        alt="bbqChickenPizza burger"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">BBQ Chicken Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/cheesePizza.png"
+                                        alt="cheesePizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Cheese Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/margheritaPizza.png"
+                                        alt="Margherita Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Margherita Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/meatPizza.png"
+                                        alt="Meat Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Meat Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/pepperoniPizza.png"
+                                        alt="Pepperoni Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Pepperoni Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/veggiePizza.png"
+                                        alt="Veggie Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Veggie Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/hawaiianPizza.png"
+                                        alt="Hawaiian Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Hawaiian Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/buffaloPizza.png"
+                                        alt="Buffalo Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Buffalo Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/supremePizza.png"
+                                        alt="Supreme Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Supreme Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pizza/kyrgyzstanPizza.png"
+                                        alt="Kyrgyzstan Pizza"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Kyrgyzstan Pizza</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="pastas" class="pastas mt-3 min-vh-100 d-flex flex-column alig-items-center">
+                    <h2 class="d-flex align-items-center justify-content-center justify-content-md-start  p-3 p-md-5">
+                        PASTA <i class="fa-solid fa-utensils"></i>
+                    </h2>
+                    <div
+                        class="p-2 p-md-3 d-flex flex-wrap flex-column flex-md-row justify-content-evenly mb-3"
+                    >
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/Carbonara.png"
+                                        alt="Carbonara"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Carbonara</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/Lasagne.png"
+                                        alt="Lasagne"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Lasagne</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/Ravioli.png"
+                                        alt="Ravioli"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Ravioli</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/SpaghettiAllaNorma.png"
+                                        alt="SpaghettiAllaNorma"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Spaghetti Alla Norma</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/SpaghettiAlleVongole.png"
+                                        alt="SpaghettiAlleVongole"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Spaghetti Alle Vongole</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2  p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                        <div class="card rounded-5 my-3 mx-auto mx-md-3 d-flex flex-column col-8  col-md-3 col-lg-2 overflow-hidden">
+                            <div class="d-flex p-3 flex-grow-1">
+                                <div
+                                    class="item d-flex flex-column align-items-center justify-content-between"
+                                >
+                                    <img
+                                        src="./images/pasta/SpaghettiBolognaise.png"
+                                        alt="SpaghettiBolognaise"
+                                        class="img-fluid my-auto"
+                                    />
+                                    <p class="text-light text-center d-block">Spaghetti Bolognaise</p>
+                                </div>
+                                <div
+                                    class="d-flex flex-column justify-content-between align-items-center"
+                                >
+                                    <div class="wishlist">
+                                        <i class="fa-solid text-center fa-heart text-light p-2 rounded-circle"></i>
+                                    </div>
+                                    <div
+                                        class="count d-flex flex-column align-items-center justify-content-evenly"
+                                    >
+                                        <i
+                                            class="fa-solid fa-plus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                        <span class="text-secondary my-3 fs-5"
+                                            >0</span
+                                        >
+                                        <i
+                                            class="fa-solid fa-minus text-light rounded-circle fs-5 p-2 p-md-1 p-lg-2"
+                                        ></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-between alig-items-center">
+                                <p class="d-flex justify-content-center align-items-center text-light w-100 p-1"><i class="fa-solid fa-peso-sign"></i><span class="fs-5 fw-bold">1</span></p>
+                                <button class="mt-auto btn btn-warning align-self-end w-100">Buy now</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- menu End -->
+
+            <!-- category links  start-->
+            <div class="categoryLinks d-flex justify-content-between align-items-center position-fixed bottom-50 end-0 p-2">
+                <div class="showCategoryLinks me-3 d-md-none">
+                    <i class="fa-solid fa-angle-left fs-3"></i>
+                </div>
+                <div class="catLinks d-flex flex-column justify-content-center align-items-center bg-warning p-2 rounded-5">
+                    <a href="#top" title="Go to Top" class="my-2"><i class="fa-solid fa-angle-up fs-3"></i></a>
+                    <a href="#burgers" title="Burgers" class="my-2"><i class="fa-solid fa-burger fs-3"></i></a>
+                    <a href="#pizzas" title="Pizzas" class="my-2"><i class="fa-solid fa-pizza-slice fs-3"></i></a>
+                    <a href="#pastas" title="Pastas" class="my-2"><i class="fa-solid fa-utensils fs-3"></i></a>
+                </div>
+            </div>
+             <!-- category links  end-->
+             
+            <!-- contact Start-->
+            <section>
+                <div class="container">
+                    <div class="mt-5 p-3 p-md-5">
+                        <div>
+                            <h1 class="text-center h1 fw-bold">CONTACT US</h1>
+                            <h5 class="text-center">Lorem ipsum</h5>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-md">
+                                <div>
+                                    <h3 class="fw-bold pt-5">Our store Location</h3>
+                                    <p class="fs-5">Lorem ipsum dolor sit amet</p>
+                                </div>
+                                <div class="pt-1">
+                                    <i class="fa-solid fa-location-dot fs-4 myicon"></i
+                                    ><span class="h5 fw-normal ps-4">Lorem sorem</span>
+                                </div>
+                                <div class="pt-3">
+                                    <i class="fa-solid fa-phone fs-4 myicon"></i
+                                    ><span class="h5 fw-normal ps-3">+6312346789</span>
+                                </div>
+                                <div class="pt-3">
+                                    <i class="fa-solid fa-envelope fs-4 myicon"></i
+                                    ><span class="h5 fw-normal ps-3">group.2@gmail.com</span>
+                                </div>
+                                <div class="mapouter pt-4">
+                                    <div class="gmap_canvas">
+                                        <iframe
+                                            id="gmap_canvas"
+                                            src="https://maps.google.com/maps?q=caloocan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                            frameborder="0"
+                                            scrolling="no"
+                                            marginheight="0"
+                                            marginwidth="0"
+                                            style="width: 100%; height: 400px;"
+                                        ></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md">
+                                <div>
+                                    <h3 class="fw-bold pt-5">Send us your comment</h3>
+                                    <p>
+                                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                                        Incidunt voluptatum iure natus commodi enim fuga.
+                                    </p>
+                                </div>
+                                <div>
+                                    <form action="">
+                                        <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Enter your Full name"
+                                        class="form-control mb-3"
+                                        required
+                                        />
+                                        <input
+                                        type="text"
+                                        name="number"
+                                        id="number"
+                                        placeholder="Ex. 09123456789"
+                                        class="form-control mb-3"
+                                        required
+                                        />
+                                        <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Ex. youremail@gmail.com"
+                                        class="form-control mb-3"
+                                        required
+                                        />
+                                        <textarea
+                                        name="address"
+                                        id="address"
+                                        cols="30"
+                                        rows="10"
+                                        class="form-control mb-3"
+                                        required
+                                        ></textarea>
+                                        <button type="submit" class="btn btn-warning fw-bold">
+                                        SUBMIT
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact End -->
+            <!-- footer Start -->
+            <footer class=" bg-dark">
+                <div class="container">
+                    <div class="pt-5 p-3 p-md-5 px-2 justify-content-center">
+                        <div class="d-flex px-2 flex-column flex-md-row">
+                            <div class="col">
+                                <img
+                                    src="./images/footer-triple-r-preview.png"
+                                    alt="Triple R logo"
+                                    class="img-fluid w-50"
+                                />
+                                <h3 class="text-light">TRIPLE-R</h3>
+                                <p class="fw-lighter text-light">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+                                maxime eos nihil obcaecati vitae, debitis aut hic possimus nemo
+                                asperiores?
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h3 class="text-light text-start text-md-center">Site Map</h3>
+                                <nav>
+                                    <ul class="nav justify-content-start justify-content-md-center">
+                                        <li>
+                                            <a href="./index.html" class="nav-link text-light fw-bold ps-0 p-md-2">Home</a>
+                                            <a href="./about.html" class="nav-link text-light fw-bold ps-0 p-md-2">About</a>
+                                            <a href="./menu.html" class="nav-link text-light fw-bold ps-0 p-md-2">Menu</a>
+                                            <a href="./contact.html" class="nav-link text-light fw-bold ps-0 p-md-2">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col text-center pb-3">
+                                <h3 class="text-light pb-3">Follow us on:</h3>
+                                <i class="fa-brands fa-facebook-square text-light fs-3 px-1"></i>
+                                <i class="fa-brands fa-instagram-square text-light fs-3 px-1"></i>
+                                <i class="fa-brands fa-github-square text-light fs-3 px-1"></i>
+                                <i class="fa-brands fa-linkedin text-light fs-3 px-1"></i>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-light text-center">
+                                Subscribe to our Newsletter
+                                </h4>
+                                <form action="">
+                                <input
+                                    type="text"
+                                    name="name"
+                                    id="name"
+                                    placeholder="Your name"
+                                    class="form-control mt-4"
+                                    required
+                                />
+                                <input
+                                    type="email"
+                                    name="email"
+                                    id="email"
+                                    placeholder="You email address"
+                                    class="form-control mt-2"
+                                    required
+                                />
+                                <button type="submit" class="btn btn-warning fw-bold mt-2">
+                                    SUBMIT
+                                </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <section>
+                        <div class="d-flex align-items-center justify-content-center bg-dark p-3 p-md-5">
+                            <p class="text-light text-center m-0">Copyright 2022 | Group-2</p>
+                        </div>
+                    </section>
+                </div>
+            </footer>
+            <!-- footer end -->
+        </div>
+        <!-- app container End -->
+    </body>
+</html>

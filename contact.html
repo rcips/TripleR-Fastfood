@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <!-- external css -->
+        <link rel="stylesheet" href="./css/robStyle.css" />
+
+        <!-- fontawesome -->
+        <script
+            src="https://kit.fontawesome.com/3bdf664df4.js"
+            crossorigin="anonymous"
+        ></script>
+
+        <!-- bootstrap -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+            crossorigin="anonymous"
+        />
+
+        <!-- tabicon -->
+        <link
+            rel="icon"
+            type="image/x-icon"
+            href="./images/ralImg/tripler.ico"
+        />
+    </head>
+    <body>
+        <!-- app container start -->
+        <div class="container-fluid p-0">
+            <!-- header start -->
+            <header>
+                <!-- navigation start -->
+                <nav
+                    id="top"
+                    class="navbar nav nav-pills navbar-expand-lg w-100 py-0"
+                >
+                    <div class="d-flex container-fluid">
+                        <div class="d-flex flex-fill">
+                            <a href="./index.html">
+                                <img
+                                    src="./images/TRIPLE-R_LOGO-removebg-preview.png"
+                                    alt="Triple R logo"
+                                    width="100"
+                            /></a>
+                        </div>
+                        <div class="d-flex">
+                            <i
+                                id="burgerMenu"
+                                class="fa-solid fa-bars navbar-toggler"
+                                data-bs-toggle="collapse"
+                                data-bs-target="#navbarCollapse"
+                            ></i>
+                        </div>
+                        <div
+                            class="navbar-collapse collapse justify-content-end text-end"
+                            id="navbarCollapse"
+                        >
+                            <ul class="navbar-nav ms-2 align-items-center px-2">
+                                <li class="nav-item m-2" id="border">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        href="./index.html"
+                                        style="color: black"
+                                        >Home</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./menu.html"
+                                        >Menu</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./about.html"
+                                        >About us</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        class="nav-link px-2 fw-bold fs-5"
+                                        style="color: black"
+                                        href="./testimonial.html"
+                                        >Testimonials</a
+                                    >
+                                </li>
+                                <li class="nav-item m-2">
+                                    <a
+                                        id="border-nav"
+                                        class="nav-link px-2 fw-bold fs-5 active bg-danger"
+                                        style="color: black"
+                                        href="./contact.html"
+                                        >Contact</a
+                                    >
+                                </li>
+                                <li class="nav-item">
+                                    <a
+                                        href="./product.html"
+                                        class="nav-link disabled"
+                                    >
+                                        <i
+                                            class="fa-solid fa-cart-shopping text-danger px-2 fw-bold fs-5"
+                                        ></i
+                                    ></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+                <!-- navigation end -->
+            </header>
+            <!-- header end -->
+
+            <!-- contact start-->
+            <section id="contact">
+                <div class="container">
+                    <div>
+                        <h1 class="welcome fw-bolder text-center text-light">
+                            CONTACT US
+                        </h1>
+                    </div>
+                </div>
+            </section>
+
+            <section id="recruitment">
+                <div class="container py-5">
+                    <div class="row d-flex flex-column flex-md-row">
+                        <div class="col py-3 py-md-1">
+                            <h3 class="pheading">JOIN TO OUR TEAM</h3>
+                            <p class="ptext">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Repudiandae accusamus
+                                obcaecati nobis ratione voluptatibus incidunt
+                                cumque error ab, architecto nulla?
+                            </p>
+                            <form action="" method="post">
+                                <div
+                                    class="d-flex flex-column flex-md-row mx-1"
+                                >
+                                    <input
+                                        type="text"
+                                        name="fname"
+                                        id="fname"
+                                        placeholder="First name"
+                                        class="form-control mb-2 mx-1"
+                                        required
+                                    />
+                                    <input
+                                        type="text"
+                                        name="lname"
+                                        id="lname"
+                                        placeholder="Last name"
+                                        class="form-control mb-2 mx-1"
+                                        required
+                                    />
+                                </div>
+                                <div
+                                    class="d-flex flex-column flex-md-row mx-1"
+                                >
+                                    <input
+                                        type="text"
+                                        name="phone"
+                                        id="phone"
+                                        placeholder="Mobile number"
+                                        class="form-control mb-2 mx-1"
+                                        required
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="Email address"
+                                        class="form-control mb-2 m-x1"
+                                        required
+                                    />
+                                </div>
+                                <div class="mx-1">
+                                    <textarea
+                                        name="address"
+                                        id="address"
+                                        cols="10"
+                                        rows="4"
+                                        placeholder="address"
+                                        class="form-control mb-2"
+                                        required
+                                    ></textarea>
+                                </div>
+                                <div class="mx-1">
+                                    <select
+                                        name="position"
+                                        id="position"
+                                        class="form-select"
+                                        required
+                                    >
+                                        <option
+                                            value="select"
+                                            selected
+                                            disabled
+                                        >
+                                            Available Positions
+                                        </option>
+                                        <option value="service crew">
+                                            Service Crew
+                                        </option>
+                                        <option value="manager">Manager</option>
+                                        <option value="Supervisor">
+                                            Supervisor
+                                        </option>
+                                        <option value="team leader">
+                                            Team Leader
+                                        </option>
+                                        <option value="director of dngineering">
+                                            Director of Engineering
+                                        </option>
+                                    </select>
+                                </div>
+                                <div class="d-flex mt-2 mx-1">
+                                    <input
+                                        type="file"
+                                        name="applicantImage"
+                                        id="applicantImage"
+                                        class="form-control me-5"
+                                        required
+                                    />
+                                    <input
+                                        type="button"
+                                        name="submit"
+                                        id="submit"
+                                        value="SUBMIT"
+                                        class="btn btn-warning fw-bold"
+                                    />
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col py-3 py-md-1">
+                            <h3 class="pheading">HOW TO REACH US</h3>
+                            <div
+                                class="d-flex flex-column flex-md-row justify-content-between pt-3"
+                            >
+                                <div class="px-1 mb-4">
+                                    <i
+                                        class="fa-solid fa-location-dot fs-4 myicon"
+                                    ></i
+                                    ><span class="ptext fw-normal ps-3"
+                                        >Lorem sorem</span
+                                    >
+                                </div>
+                                <div class="px-1 mb-4">
+                                    <i class="fa-solid fa-phone fs-4 myicon"></i
+                                    ><span class="ptext fw-normal ps-3"
+                                        >+6312346789</span
+                                    >
+                                </div>
+                                <div class="px-1 mb-4">
+                                    <i
+                                        class="fa-solid fa-envelope fs-4 myicon"
+                                    ></i
+                                    ><span class="ptext fw-normal ps-3"
+                                        >group.2@gmail.com</span
+                                    >
+                                </div>
+                            </div>
+                            <div>
+                                <h3 class="pheading pt-3">
+                                    Our store Location
+                                </h3>
+                                <p class="ptext">Lorem ipsum dolor sit amet</p>
+                            </div>
+                            <div class="mapouter pt-4">
+                                <div class="gmap_canvas">
+                                    <iframe
+                                        style="width: 100%; height: 400px"
+                                        id="gmap_canvas"
+                                        src="https://maps.google.com/maps?q=caloocan&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                        frameborder="0"
+                                        scrolling="no"
+                                        marginheight="0"
+                                        marginwidth="0"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact end -->
+
+            <!-- back to top  start-->
+            <div
+                class="backToTop d-flex justify-content-between align-items-center position-fixed bottom-0 end-0 p-2"
+            >
+                <div class="showBackToTop me-3 d-md-none">
+                    <i class="fa-solid fa-angle-left fs-3"></i>
+                </div>
+                <div
+                    class="topIcon d-flex flex-column justify-content-center align-items-center bg-warning p-2 rounded-5"
+                >
+                    <a href="#top" title="Go to Top" class="my-2"
+                        ><i class="fa-solid fa-angle-up fs-3"></i
+                    ></a>
+                </div>
+            </div>
+            <!-- back to top  end-->
+
+            <!-- footer start -->
+            <section class="bg-dark">
+                <footer>
+                    <div
+                        class="container bg-dark pt-5 pb-3 justify-content-center"
+                    >
+                        <div class="d-flex px-2 flex-column flex-md-row">
+                            <div class="col">
+                                <img
+                                    src="./images/footer-triple-r-preview.png"
+                                    alt="Triple R logo"
+                                    class="img-fluid w-50"
+                                />
+                                <h3 class="text-light">TRIPLE-R</h3>
+                                <p class="fw-lighter text-light ptext">
+                                    Lorem ipsum dolor sit amet consectetur
+                                    adipisicing elit. Neque maxime eos nihil
+                                    obcaecati vitae, debitis aut hic possimus
+                                    nemo asperiores?
+                                </p>
+                            </div>
+                            <div class="col">
+                                <h3
+                                    class="text-light text-start text-md-center pheading"
+                                >
+                                    Site Map
+                                </h3>
+                                <nav>
+                                    <ul
+                                        class="nav justify-content-start justify-content-md-center"
+                                    >
+                                        <li>
+                                            <a
+                                                href="./index.html"
+                                                class="nav-link text-light fw-bold ps-0 p-md-2 grow"
+                                                >Home</a
+                                            >
+                                            <a
+                                                href="./about.html"
+                                                class="nav-link text-light fw-bold ps-0 p-md-2 grow"
+                                                >About</a
+                                            >
+                                            <a
+                                                href="./menu.html"
+                                                class="nav-link text-light fw-bold ps-0 p-md-2 grow"
+                                                >Menu</a
+                                            >
+                                            <a
+                                                href="./contact.html"
+                                                class="nav-link text-light fw-bold ps-0 p-md-2 grow"
+                                                >Contact</a
+                                            >
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="col text-center pb-3">
+                                <h3 class="text-light pb-2 pheading">
+                                    Follow us on:
+                                </h3>
+                                <i
+                                    class="fa-brands fa-facebook-square text-light fs-3 px-1 grow"
+                                ></i>
+                                <i
+                                    class="fa-brands fa-instagram-square text-light fs-3 px-1 grow"
+                                ></i>
+                                <i
+                                    class="fa-brands fa-github-square text-light fs-3 px-1 grow"
+                                ></i>
+                                <i
+                                    class="fa-brands fa-linkedin text-light fs-3 px-1 grow"
+                                ></i>
+                            </div>
+                            <div class="col">
+                                <h4 class="text-light text-center pheading">
+                                    Subscribe to our Newsletter
+                                </h4>
+                                <form action="">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        id="name"
+                                        placeholder="Your name"
+                                        class="form-control mt-4"
+                                    />
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        id="email"
+                                        placeholder="You email address"
+                                        class="form-control mt-2"
+                                    />
+                                    <button
+                                        type="submit"
+                                        class="btn btn-warning fw-bold mt-2"
+                                    >
+                                        SUBMIT
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
+            <section>
+                <div class="container-fluid bg-dark py-3">
+                    <p class="text-light text-center ptext">
+                        Copyright 2022 | Group-2
+                    </p>
+                </div>
+            </section>
+            <!-- footer end -->
+        </div>
+        <!-- app container end -->
+
+        <!-- JavaScript Bundle with Popper -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

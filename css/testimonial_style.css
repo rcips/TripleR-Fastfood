@@ -1,0 +1,110 @@
+/** @format */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;700&display=swap");
+
+:root {
+    --black: #000000;
+    --cheese: #ffa600;
+}
+
+.navbar {
+    background-color: #f5f220;
+}
+
+.navbar-toggler {
+    border: none;
+    color: var(--black);
+}
+
+#burgerMenu {
+    font-size: 3rem;
+}
+
+#border-nav {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+}
+
+#hero {
+    background-image: url("../images/ralImg/burger1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #0009;
+    background-blend-mode: overlay;
+    height: 20rem;
+}
+
+.welcome {
+    font-family: league spartan;
+    font-size: 30px !important;
+    font-weight: bolder;
+    line-height: 1em;
+}
+
+#hero:hover {
+    opacity: 0.99;
+}
+
+.tour-desc {
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#Testimonials {
+    background-image: url(../images/ralImg/testimonial.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(235, 233, 233, 0.39);
+    background-blend-mode: overlay;
+}
+
+.fa-star {
+    color: var(--cheese);
+}
+
+/* Back To Top */
+.backToTop {
+    transform: translate(50%);
+    z-index: 4;
+    transition: all ease 0.5s;
+}
+
+.backToTop:hover {
+    transform: translateX(0);
+}
+
+.topIcon a {
+    transition: all ease 0.25s;
+}
+
+.topIcon a:hover {
+    transform: scale(1.5);
+}
+
+.topIcon i {
+    color: #fd6e06;
+}
+
+.showBackToTop i {
+    animation: showCatLinksAnimation infinite 2s alternate;
+}
+
+.myicon {
+    color: #fd6e06 !important;
+}
+
+@media only screen and (min-width: 768px) {
+    .welcome {
+        font-size: 70px !important;
+    }
+
+    .backToTop {
+        transform: translateX(0);
+    }
+}

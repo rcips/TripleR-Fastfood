@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;300;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: #f5f220;
+}
+
+.navbar-toggler {
+    border: none;
+    color: black;
+}
+
+#burgerMenu {
+    color: black;
+    border: none;
+    font-size: 3rem;
+}
+
+#border-nav {
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    -o-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+}
+
+.nopadding {
+    padding: 0 !important;
+}
+
+.menu {
+    background-color: #000 !important;
+}
+
+.herobg {
+    padding-top: 200px !important;
+    padding-bottom: 200px !important;
+    background-image: url(../images/rob/2.jpg) !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-blend-mode: overlay !important;
+    background-color: #0009;
+    background-attachment: fixed;
+}
+
+.welcome {
+    font-family: league spartan;
+    font-size: 70px !important;
+    font-weight: bolder;
+    line-height: 1em;
+}
+
+.myicon {
+    color: #fd6e06 !important;
+}
+
+.about {
+    padding: 150px 0 !important;
+    background-image: url(../images/rob/4.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-color: #0009;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.about2 {
+    padding: 180px !important;
+    background-image: url(../images/rob/5.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#contact {
+    padding: 150px 0;
+    background-image: url(../images/rob/5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0009;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.border {
+    box-shadow: 1px 3px 3px #c1c1c1;
+    transition: 0.5s ease;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.14) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.border:hover {
+    box-shadow: 10px 5px 5px #c1c1c1 !important;
+    transition: 0.5s ease;
+}
+
+.grow {
+    transition: all 0.5s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+.second-heading {
+    font-family: league spartan !important;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+.pheading {
+    font-family: league spartan;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.ptext {
+    font-family: league spartan;
+    font-size: 19px;
+}
+
+.navtext {
+    font-family: league spartan;
+    font-size: 25px;
+    color: white;
+}
+
+.navtext:hover {
+    color: #d3621a !important;
+}
+
+#testimonial {
+    padding: 200px 0;
+    background-image: url(../images/rob/testimonial.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0009;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+#ourmenu {
+    padding: 200px 0;
+    background-image: url(../images/rob/chef.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #0009;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+/* Back To Top */
+.backToTop {
+    transform: translate(50%);
+    z-index: 4;
+    transition: all ease 0.5s;
+}
+
+.backToTop:hover {
+    transform: translateX(0);
+}
+
+.topIcon a {
+    transition: all ease 0.25s;
+}
+
+.topIcon a:hover {
+    transform: scale(1.5);
+}
+
+.topIcon i {
+    color: #fd6e06;
+}
+
+.showBackToTop i {
+    animation: showCatLinksAnimation infinite 2s alternate;
+}
+
+@media only screen and (min-width: 768px) {
+    .backToTop {
+        transform: translateX(0);
+    }
+}
+
+/* angle icon animation */
+@keyframes showCatLinksAnimation {
+    0% {
+        color: white;
+        transform: translateX(-6px);
+    }
+    30% {
+        transform: translateX(-4px);
+    }
+    60% {
+        color: #fd6e06;
+        transform: translateX(-10px);
+    }
+    70% {
+        transform: translateX(-5px);
+    }
+    100% {
+        color: white;
+        transform: translateX(-8px);
+    }
+}
